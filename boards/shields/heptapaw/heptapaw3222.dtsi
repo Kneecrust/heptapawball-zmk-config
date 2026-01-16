@@ -49,7 +49,7 @@
     cs-gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;
 };
 
-&trackball@0 {
+&trackball {
   status = "okay";
     motion-gpios = <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
     res-cpi = <1558>;
