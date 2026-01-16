@@ -1,0 +1,8 @@
+file_format: "1"
+id: heptapaw
+name: heptapaw
+type: shield
+url: https://github.com/Kneecrust/heptapaw-zmk-config
+requires: [pro_micro]
+features:
+  - keys
