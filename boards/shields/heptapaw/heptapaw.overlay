@@ -5,7 +5,7 @@
  */
 
 #include "heptapaw.dtsi"
-#include "heptapaw3222.dtsi
+#include "heptapaw3222.dtsi"
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
