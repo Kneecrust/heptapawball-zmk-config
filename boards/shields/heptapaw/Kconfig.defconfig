@@ -9,7 +9,7 @@ if SHIELD_HEPTAPAW
   config INPUT
       default y
 
-  config ZMK_POINTING
+  config ZMK_MOUSE
     default y
 
   config PAW3222
