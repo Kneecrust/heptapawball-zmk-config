@@ -12,8 +12,6 @@
 #define MED 3
 #define GAME 4
 
-#include "combos.dtsi"
-
 / { 
     conditional_layers {
       compatible = "zmk,conditional-layers";
