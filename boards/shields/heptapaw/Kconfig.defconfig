@@ -1,13 +1,10 @@
 if SHIELD_HEPTAPAW
 
   config ZMK_KEYBOARD_NAME
-  default "heptapaw"
+    default "heptapaw"
 
-  config SPI
-      default y
-
-  config INPUT
-      default y
+  config ZMK_POINTING
+    default y
 
   config ZMK_MOUSE
     default y
