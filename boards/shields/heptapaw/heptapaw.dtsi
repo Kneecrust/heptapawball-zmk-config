@@ -58,7 +58,7 @@
                     <NRF_PSEL(SPIM_MISO, 0, 9)>;
             low-power-enable;
         };
-    };
+    };z
 };
 
 &spi0 {
@@ -67,7 +67,7 @@
     pinctrl-0 = <&spi0_default>;
     pinctrl-1 = <&spi0_sleep>;
     pinctrl-names = "default", "sleep";
-    cs-gpios = <&gpio1 6 GPIO_ACTIVE_LOW>;
+    cs-gpios = <&gpio0 6 GPIO_ACTIVE_LOW>;
 
     trackball: trackball@0 {
         status = "okay";
