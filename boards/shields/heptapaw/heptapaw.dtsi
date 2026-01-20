@@ -58,7 +58,7 @@
                     <NRF_PSEL(SPIM_MISO, 0, 9)>;
             low-power-enable;
         };
-    };z
+    };
 };
 
 &spi0 {
