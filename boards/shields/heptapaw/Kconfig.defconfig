@@ -2,14 +2,5 @@ if SHIELD_HEPTAPAW
 
   config ZMK_KEYBOARD_NAME
     default "heptapaw"
-
-  config ZMK_POINTING
-    default y
-
-  config ZMK_MOUSE
-    default y
-
-  config PAW3222
-    default y
-  
+    
 endif
