@@ -39,6 +39,7 @@
     trackball: trackball@0 {
         status = "okay";
         compatible = "pixart,paw32xx";
+        reg = <0>;
         spi-max-frequency = <800000>;
         motion-gpios = <&gpio0 17 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         res-cpi = <800>;
